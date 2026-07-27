@@ -5,5 +5,31 @@
 .fundo{
     background-image:linear-gradient(45deg,rgb(238, 82, 147),rgb(231, 163, 174));
     height:100vh;
-    color;white;
+    color:white; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.calculadora{
+  position: absolute;
+  background-color: aliceblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 20px;
+}
+.botao{
+  width: 50px;
+  height: 30px;
+  margin: 3px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: grey;
+  border: none;
+  color: black;
+}
+.boto:hover{
+  background-color: black;
+  color: white;
 }
